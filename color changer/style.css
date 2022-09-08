@@ -1,0 +1,36 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aqua;
+  border: 10px solid black;
+  color: whitesmoke;
+}
+.body {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.colorss {
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.btn {
+  font-size: 50px;
+  margin-top: 20px;
+  width: 140px;
+  height: 70px;
+  border-radius: 8px;
+  color: black;
+  padding-right: 10px;
+}
+.btn:hover {
+  background-color: blanchedalmond;
+}
